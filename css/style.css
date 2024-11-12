@@ -1,0 +1,21 @@
+/* Estilo para centralizar o formulário */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura da tela */
+    background-color: #f8f9fa;
+  }
+
+  .form-box {
+    border: 2px solid #007bff;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 500px; /* Largura máxima do formulário */
+  }
+
+  .form-box label {
+    font-weight: bold;
+  }
